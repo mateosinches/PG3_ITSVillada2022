@@ -1,12 +1,16 @@
 print("ingrese el ancho del rectangulo")
-ancho=int(input())
+ancho = int(input())
 print("ingrese el alto del rectangulo")
-alto=int(input())
+alto = int(input())
 print("ingrese el caractear que va a usar el rectangulo")
-caracter=str(input())
+caracter = str(input())
 
-def rectangulo(ancho,alto,caracter):
-    for i in range (alto):
-        print(ancho*caracter)
+
+def rectangulo(ancho, alto, caracter):
+    for i in range(alto):
+        print(ancho * caracter)
+
 
 rectangulo(ancho, alto, caracter)
+
+# s#
