@@ -12,3 +12,4 @@ if step(num) == True:
     print("Es step ")
 else:
     print("No step ")
+    
